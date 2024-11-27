@@ -1,0 +1,80 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O Chamado de Atena</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/foto de cavaleiro.jfif" alt="">
+            <p>Ao chegar ao Santuário, você descobre que os cavaleiros de Ouro estão divididos. Alguns acreditam que o inimigo pode ser um aliado, enquanto outros preferem confrontá-lo diretamente. Qual lado você escolhe?</p>
+            <button class="btn-proximo" data-proximo="1">Seguir o Cavaleiro de Leão e investigar o interesse do inimigo.</button>
+            <button class="btn-proximo" data-proximo="2">Lutar ao lado do Cavaleiro de Escorpião para proteger Atena.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/aga.jfif" alt="">
+            <p>Você seguiu o Cavaleiro de Leão e descobriu que o inimigo é Saga de Gêmeos, um poderoso guerreiro com habilidades misteriosas. Saga diz que sua intenção é matar a Deusa Atena, para poder governar o mundo inteiro.</p>
+            <button class="btn-proximo" data-proximo="3">Confrontar Saga e defender a Deusa contra seu antigo aliado.</button>
+            <button class="btn-proximo" data-proximo="4">Unir-se a Saga em sua busca pelo poder do trono de Atena.</button>
+        </div>
+        <!-- Confronto com Saga -->
+        <div class="passo" id="passo-3">
+            <img src="img/luta.jfif" alt="">
+            <p>Você e o Cavaleiro de Leão confrontam Saga, Cavaleiro de Gêmeos, para proteger Atena. Saga declara: 
+               <strong>"Vocês não entendem! Atena nunca valorizou meus esforços. Eu sou o verdadeiro herdeiro do trono divino dos Deuses!"</strong></p>
+            <button class="btn-proximo" data-proximo="7">Saga usa a Explosão Galática contra você, mas o Cavaleiro de Leão contra-ataca com seu golpe "Cápsula do Poder!"</button>
+        </div>
+        <!-- Unindo-se a Saga -->
+        <div class="passo" id="passo-4">
+            <img src="img/aga.jfif" alt="">
+            <p>Você decide se unir a Saga e ajudá-lo em sua busca pelo poder. Saga sorri, admirando sua decisão, e revela um plano para derrotar Atena e assumir o trono celestial. Ele explica que, juntos, poderão derrotar qualquer um que se oponha ao seu domínio.</p>
+            <button class="btn-proximo" data-proximo="5">Avançar para o lado de Saga e iniciar o plano de destruição.</button>
+            <button class="btn-proximo" data-proximo="6">Duvidar de Saga e perguntar mais sobre seu plano antes de se comprometer.</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/saga_planos.jfif" alt="">
+            <p>Você se junta a Saga e começa a agir como seu aliado. Juntos, vocês formam um exército poderoso e se preparam para o ataque final contra Atena e seus protetores. O cosmos de Saga brilha com força enquanto ele lidera os ataques devastadores.</p>
+            <button class="btn-proximo" data-proximo="7">Avançar para a batalha decisiva contra Atena e seus cavaleiros.</button>
+        </div>
+        <!-- Caminho de luta ao lado do Cavaleiro de Escorpião -->
+        <div class="passo" id="passo-2">
+            <img src="img/milo de d.jfif" alt="">
+            <p>Você decide se unir ao Cavaleiro de Escorpião para proteger Atena. Durante a batalha, Saga lança seu poderoso golpe *Outra Dimensão*, tentando aprisionar você e o Cavaleiro de Escorpião em uma realidade paralela.</p>
+            <button class="btn-proximo" data-proximo="5">Resistir ao golpe de Saga com o poder do Escorpião.</button>
+            <button class="btn-proximo" data-proximo="6">Ser transportado para a outra dimensão e encontrar uma saída.</button>
+        </div>
+        <!-- Continuação do caminho do confronto -->
+        <div class="passo" id="passo-6">
+            <img src="img/outra.jfif" alt="">
+            <p>Ao ser transportado para a outra dimensão, você encontra uma estranha luz dourada que parece ser uma saída. Contudo, há uma figura misteriosa bloqueando o caminho. É o espírito de um antigo cavaleiro, desafiando você para provar seu valor.</p>
+            <button class="btn-proximo" data-proximo="8">Lutar contra o espírito para encontrar a saída.</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>O Cavaleiro de Leão usa *Cápsula do Poder*, liberando uma onda explosiva que neutraliza a *Explosão Galática*. Saga fica atordoado, e sua armadura apresenta rachaduras significativas.  
+            <strong>"Como você ousa desafiar um Deus?!"</strong>, grita Saga.</p>
+            <button class="btn-proximo" data-proximo="9">Você percebe uma brecha em Saga e prepara seu golpe final.</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="img/outt.jfif" alt="">
+            <p>Após derrotar o espírito, você encontra a saída e retorna ao campo de batalha, onde o Cavaleiro de Escorpião ainda enfrenta Saga. Agora, vocês unem forças para tentar derrotar o inimigo.</p>
+            <button class="btn-proximo" data-proximo="9">Avançar para a batalha final contra Saga.</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="img/ttt.jfif" alt="">
+            <p>Você nota uma abertura crucial na defesa de Saga. A armadura dele ficou instável após o último ataque.  
+            Você prepara seu próximo golpe. Saga, desesperado, grita: <strong>"NÃO! Você não pode me derrotar!"</strong></p>
+            <button class="btn-proximo" data-proximo="11">Você lança um ataque devastador contra Saga de Gêmeos, encerrando a luta.</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/11.jfif" alt="">
+            <p>Após derrotar Saga, o equilíbrio retorna ao Santuário, e Atena agradece sua bravura. O cosmos dos Cavaleiros de Ouro se harmoniza novamente.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
